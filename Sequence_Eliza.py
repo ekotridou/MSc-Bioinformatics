@@ -18,7 +18,7 @@ def check_dna_sequence(sequence):
         print("The sequence contains invalid characters. Use only the letters A, T, G and C.")
         return False
 
-    # Find the start codon in the REVERSE sequence
+    # Find the start codon in the sequence
     start_index = sequence.find(start_codon)
     if start_index == -1:
         # If start codon not found, try in reverse complement
