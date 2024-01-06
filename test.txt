@@ -1,3 +1,0 @@
-eliza
-Hello World
-
